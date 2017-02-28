@@ -1,0 +1,100 @@
+
+h1 {
+	text-align: center;
+}
+.form {
+	width: 100%;
+	height: 650px;
+
+	color: white;
+	padding-top: 50px;
+	font-size: 19px;
+	font-weight: 800;
+	font-family: sans-serif;
+	background-image: url(images/7.jpg);
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: top;
+}
+
+
+
+.form h1 {
+	margin-bottom: 20px;
+}
+
+input[type="text"] .message {
+	height: 100px;
+
+}
+
+.message {
+	display: block;
+	margin: 2px;
+	background: #ffffff ;
+	outline: none;
+	width: 500px;
+	height: 100px;
+	color: #B6B6B6;
+	font-family: sans-serif;
+	font-size: 18px;
+	padding-left: 10px;
+	padding-top: 10px;
+   
+     
+}
+
+.message:hover {
+	background: #B7EFEC;
+	transition: .5s;
+	color: #18BAB1;
+}
+
+.message:focus {
+	background: #B7EFEC;
+	transition: .5s;
+	color: #18BAB1;
+}
+
+input[type="text"] {
+	display: block;
+	margin: 2px;
+	background: #ffffff;
+	outline: none;
+
+	height: 60px;
+	color: #B6B6B6;
+	font-family: sans-serif;
+	font-size: 18px;
+	max-width: 500px;
+	padding-left: 10px;
+
+     
+}
+
+input[type="text"]::hover {
+	background-color: #B7EFEC;
+}
+
+
+.send {
+	color: white;
+	font-family: sans-serif;
+	font-weight: 900;
+	font-size: 18px;
+	text-align: center;
+	width: 500px;
+	height: 49px;
+	background-color: #217E79;
+	padding-top: 10px;
+	margin-top: 10px;
+
+	padding-left: 10px;
+}
+
+.send:hover {
+	background-color: #333333;
+	transition: .5s;
+}
+
